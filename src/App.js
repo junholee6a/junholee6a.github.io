@@ -40,11 +40,22 @@ function App() {
         <section id='work-experience'>
           <h1>WORK EXPERIENCE</h1>
           <div className='block'>
+            <div className='block-heading'>Cornell Summer Research | Remote</div>
+            <div>Research Assistant, May. 2023 – Present</div>
+            <ul>
+              <li>Collaboratively designing and implementing a software testing tool in Python</li>
+              <li>Evaluated pros and cons of Python modules to potentially integrate into software</li>
+              <li>Wrote pull requests to fix bugs encountered in the related DynaPyt repository</li>
+              <li>Planning software architecture and syntax; writing demo use cases</li>
+              <li>Sharing findings in meetings and communicating through Slack</li>
+            </ul>
+          </div>
+          <div className='block'>
             <div className='block-heading'>UVA CS 2120: Discrete Mathematics and Theory 1 | Charlottesville, VA</div>
-            <div>Teaching Assistant, Jan. 2023 – Present</div>
+            <div>Teaching Assistant (During Academic Year, Excluding Summers), Jan. 2023 – Present</div>
             <ul>
               <li>Holding weekly office hours to guide students through technical problems</li>
-              <li>Participating in weekly staff meetings to write/grade quiz questions and discuss logistics</li>
+              <li>Participating in weekly staff meetings to grade quiz questions and discuss logistics</li>
               <li>Assisting instructor during lectures and answering students’ questions</li>
             </ul>
           </div>
@@ -52,29 +63,39 @@ function App() {
         <section id='projects'>
           <h1>PROJECTS</h1>
           <div className='block'>
+            <div className='block-heading'>Light CMS</div>
+            <div>May. 2023 – Present</div>
+            <ul>
+              <li>Building headless, serverless content management system (CMS) on AWS for website content</li>
+              <li>Wrote Node.js REST APIs to fetch/edit hierarchical content on database with authentication</li>
+              <li>Deployed cloud services under custom subdomains; working on React frontend</li>
+              <li>AWS services used: Lambda, API Gateway, DynamoDB, Cognito, S3, CloudFront</li>
+            </ul>
+          </div>
+          <div className='block'>
             <div className='block-heading'><a target='_blank' rel='noreferrer' href='https://github.com/capitalone/DataProfiler/pulls?q=is%3Apr+author%3Ajunholee6a'>DataProfiler (Open-source Contributions)<span className='material-symbols-outlined'>open_in_new</span></a></div>
             <div>May. 2023 – Present</div>
             <ul>
-              <li>Contributed multiple merged pull requests to repository</li>
-              <li>Fixed project’s Python type checking configuration and resolved new type errors</li>
-              <li>Discussed technical solutions with maintainers on GitHub</li>
+              <li>Wrote 15+ pull requests merged into repository by maintainers</li>
+              <li>Fixed project’s Python type-checking configuration and resolved other type errors</li>
+              <li>Researched solutions from other projects and discussed with maintainers on GitHub</li>
             </ul>
           </div>
           <div className='block'>
             <div className='block-heading'><a target='_blank' rel='noreferrer' href='https://github.com/ppongpeauk/hoohacks-2023'>ResuMatch (HooHacks 2023)<span className='material-symbols-outlined'>open_in_new</span></a></div>
             <div>Mar. 2023</div>
             <ul>
-              <li>Used an API to query and process job data from LinkedIn and find matches to PDF resume</li>
-              <li>Wrote a Flask backend with REST API, combining team members’ individual contributions</li>
-              <li>Presented the project to judges with live demo</li>
+              <li>Queried LinkedIn job data and matched descriptions to keywords from PDF resumes</li>
+              <li>Wrote Flask backend with REST API, combining team members’ contributions</li>
+              <li>Presented project to hackathon judges with live demo</li>
             </ul>
           </div>
           <div className='block'>
             <div className='block-heading'><a target='_blank' rel='noreferrer' href='https://github.com/wikimedia/wikipedia-ios/pulls?q=is%3Apr+author%3Ajunholee6a'>Wikipedia iOS App (Open-source Contributions)<span className='material-symbols-outlined'>open_in_new</span></a></div>
             <div>Dec. 2022 – Jan. 2023</div>
             <ul>
-              <li>Opened pull requests for bug fixes and features which were approved and merged by maintainers</li>
-              <li>Fixed bugs based on user reports, in large Swift/Objective-C codebase with little documentation</li>
+              <li>Wrote 5+ pull requests merged into repository by maintainers</li>
+              <li>Fixed bugs reported by users in large Swift/Objective-C codebase</li>
             </ul>
           </div>
         </section>
