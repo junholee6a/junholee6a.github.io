@@ -43,11 +43,11 @@ function App() {
             <div className='block-heading'>Cornell Summer Research | Remote</div>
             <div>Research Assistant, May. 2023 – Present</div>
             <ul>
-              <li>Collaboratively designing and implementing a software testing tool in Python</li>
-              <li>Evaluated pros and cons of Python modules to potentially integrate into software</li>
-              <li>Wrote pull requests to fix bugs encountered in the related DynaPyt repository</li>
-              <li>Planning software architecture and syntax; writing demo use cases</li>
-              <li>Sharing findings in meetings and communicating through Slack</li>
+              <li>Collaboratively implementing Python variation of existing Java software testing tool</li>
+              <li>Evaluated pros and cons of Python modules to potentially integrate into project</li>
+              <li>Wrote Python wrapper for Java packages to reuse components</li>
+              <li>Fixed two bugs in related open-source repository; pull requests merged</li>
+              <li>Designing/documenting software architecture and syntax for writing tests</li>
             </ul>
           </div>
           <div className='block'>
