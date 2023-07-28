@@ -40,14 +40,14 @@ function App() {
         <section id='work-experience'>
           <h1>WORK EXPERIENCE</h1>
           <div className='block'>
-            <div className='block-heading'>Cornell Summer Research | Remote</div>
+            <div className='block-heading'>Cornell Runtime Verification Research | Remote</div>
             <div>Research Assistant, May. 2023 – Present</div>
             <ul>
-              <li>Collaboratively implementing Python variation of existing Java software testing tool</li>
-              <li>Evaluated pros and cons of Python modules to potentially integrate into project</li>
-              <li>Wrote Python wrapper for Java packages to reuse components</li>
-              <li>Fixed two bugs in related open-source repository; pull requests merged</li>
-              <li>Designing/documenting software architecture and syntax for writing tests</li>
+              <li>Collaboratively building Python variation of JavaMOP, a Java software testing framework</li>
+              <li>Evaluated pros and cons of third-party and native libraries to potentially integrate into project</li>
+              <li>Fixed two bugs in related open-source repository DynaPyt, with pull requests merged</li>
+              <li>Wrote Python wrapper for Java packages to reuse JavaMOP components</li>
+              <li>Designing/documenting software architecture and a syntax for writing software tests</li>
             </ul>
           </div>
           <div className='block'>
@@ -67,7 +67,7 @@ function App() {
             <div>May. 2023 – Present</div>
             <ul>
               <li>Building headless, serverless content management system (CMS) on AWS for website content</li>
-              <li>Wrote Node.js REST APIs to fetch/edit hierarchical content on database with authentication</li>
+              <li>Wrote Node.js REST APIs to fetch/edit content on NoSQL database with authentication</li>
               <li>Deployed cloud services under custom subdomains; working on React frontend</li>
               <li>AWS services used: Lambda, API Gateway, DynamoDB, Cognito, S3, CloudFront</li>
             </ul>
@@ -76,9 +76,9 @@ function App() {
             <div className='block-heading'><a target='_blank' rel='noreferrer' href='https://github.com/capitalone/DataProfiler/pulls?q=is%3Apr+author%3Ajunholee6a'>DataProfiler (Open-source Contributions)<span className='material-symbols-outlined'>open_in_new</span></a></div>
             <div>May. 2023 – Present</div>
             <ul>
-              <li>Wrote 15+ pull requests merged into repository by maintainers</li>
-              <li>Fixed project’s Python type-checking configuration and resolved other type errors</li>
-              <li>Researched solutions from other projects and discussed with maintainers on GitHub</li>
+              <li>Wrote 15+ merged pull requests fixing Python type-checking errors, LSP violations, etc.</li>
+              <li>Fixed project’s mypy type-checking configuration; documented steps to update dependencies</li>
+              <li>Worked with maintainers to resolve issues and merge changes in continuous integration</li>
             </ul>
           </div>
           <div className='block'>
@@ -94,8 +94,8 @@ function App() {
             <div className='block-heading'><a target='_blank' rel='noreferrer' href='https://github.com/wikimedia/wikipedia-ios/pulls?q=is%3Apr+author%3Ajunholee6a'>Wikipedia iOS App (Open-source Contributions)<span className='material-symbols-outlined'>open_in_new</span></a></div>
             <div>Dec. 2022 – Jan. 2023</div>
             <ul>
-              <li>Wrote 5+ pull requests merged into repository by maintainers</li>
-              <li>Fixed bugs reported by users in large Swift/Objective-C codebase</li>
+              <li>Wrote 5+ merged pull requests fixing issues in caching, URL encoding, scrolling, copying, etc.</li>
+              <li>Identified and fixed bugs reported by app users in large Swift/Objective-C codebase</li>
             </ul>
           </div>
         </section>
