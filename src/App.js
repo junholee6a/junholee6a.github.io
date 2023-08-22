@@ -40,19 +40,19 @@ function App() {
         <section id='work-experience'>
           <h1>WORK EXPERIENCE</h1>
           <div className='block'>
-            <div className='block-heading'>Cornell Runtime Verification Research | Remote</div>
-            <div>Research Assistant, May. 2023 – Present</div>
+            <div className='block-heading'>Cornell Software Engineering Research Group | Remote</div>
+            <div>Research Assistant, May 2023 – Aug. 2023</div>
             <ul>
               <li>Collaboratively building Python variation of JavaMOP, a Java software testing framework</li>
-              <li>Evaluated pros and cons of third-party and native libraries to potentially integrate into project</li>
-              <li>Fixed two bugs in related open-source repository DynaPyt, with pull requests merged</li>
-              <li>Wrote Python wrapper for Java packages to reuse JavaMOP components</li>
-              <li>Designing/documenting software architecture and a syntax for writing software tests</li>
+              <li>Designed/documented software architecture and a syntax for writing software tests</li>
+              <li>Implemented Python wrappers for Java packages, and tracing Python function calls for analysis</li>
+              <li>Configured project so build/install, documentation generation, and testing are each one command</li>
+              <li>Delegated tasks to and helped onboard a PhD student to project</li>
             </ul>
           </div>
           <div className='block'>
-            <div className='block-heading'>UVA CS 2120: Discrete Mathematics and Theory 1 | Charlottesville, VA</div>
-            <div>Teaching Assistant (During Academic Year, Excluding Summers), Jan. 2023 – Present</div>
+            <div className='block-heading'>University of Virginia | Charlottesville, VA</div>
+            <div>Teaching Assistant (Discrete Math and Theory 1), Jan. 2023 – Present (term time)</div>
             <ul>
               <li>Holding weekly office hours to guide students through technical problems</li>
               <li>Participating in weekly staff meetings to grade quiz questions and discuss logistics</li>
