@@ -40,6 +40,15 @@ function App() {
         <section id='work-experience'>
           <h1>WORK EXPERIENCE</h1>
           <div className='block'>
+            <div className='block-heading'>University of Virginia | Charlottesville, VA</div>
+            <div>Teaching Assistant (Discrete Math and Theory 1), Jan. 2023 – Present (term time)</div>
+            <ul>
+              <li>Holding weekly office hours to guide students through technical problems</li>
+              <li>Participating in weekly staff meetings to grade quiz questions and discuss logistics</li>
+              <li>Assisting instructor during lectures and answering students’ questions</li>
+            </ul>
+          </div>
+          <div className='block'>
             <div className='block-heading'>Cornell Software Engineering Research Group | Remote</div>
             <div>Research Assistant, May 2023 – Aug. 2023</div>
             <ul>
@@ -48,15 +57,6 @@ function App() {
               <li>Implemented Python wrappers for Java packages, and tracing Python function calls for analysis</li>
               <li>Configured project so build/install, documentation generation, and testing are each one command</li>
               <li>Delegated tasks to and helped onboard a PhD student to project</li>
-            </ul>
-          </div>
-          <div className='block'>
-            <div className='block-heading'>University of Virginia | Charlottesville, VA</div>
-            <div>Teaching Assistant (Discrete Math and Theory 1), Jan. 2023 – Present (term time)</div>
-            <ul>
-              <li>Holding weekly office hours to guide students through technical problems</li>
-              <li>Participating in weekly staff meetings to grade quiz questions and discuss logistics</li>
-              <li>Assisting instructor during lectures and answering students’ questions</li>
             </ul>
           </div>
         </section>
