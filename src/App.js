@@ -29,7 +29,7 @@ function App() {
           <div className='flex-container'>
             
             <div style={{fontSize: '24px', flexGrow: '9999', flexBasis: '450px', margin: '0 20px 30px 0'}}>
-              I'm Junho Lee, an undergraduate student from Fairfax, Virginia, studying at the <b>University of Virginia</b> for a computer science major and statistics minor.
+              I'm Junho Lee, an undergraduate student from Fairfax, Virginia, studying at the <b>University of Virginia</b> for a computer science major and math minor.
               <br /><br />
               I've had opportunities to learn from cool projects, courses, research, and open-source contributions, gaining experience in software engineering, web, and data science.
             </div>
