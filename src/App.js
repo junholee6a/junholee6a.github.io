@@ -29,7 +29,7 @@ function App() {
           <div className='flex-container'>
             
             <div style={{fontSize: '24px', flexGrow: '9999', flexBasis: '450px', margin: '0 20px 30px 0'}}>
-              I'm Junho Lee, an undergraduate student from Fairfax, Virginia, studying at the <b>University of Virginia</b> for a computer science major and math minor.
+              I'm Junho Lee, an undergraduate student from Fairfax, Virginia, studying at the <b>University of Virginia</b> for a computer science and math double major.
               <br /><br />
               I've had opportunities to learn from cool projects, courses, research, and open-source contributions, gaining experience in software engineering, web, and data science.
             </div>
@@ -49,10 +49,10 @@ function App() {
             </ul>
           </div>
           <div className='block'>
-            <div className='block-heading'>Cornell Software Engineering Research Group | Remote</div>
+            <div className='block-heading'>Cornell Software Engineering Research Group</div>
             <div>Research Assistant, May 2023 – Aug. 2023</div>
             <ul>
-              <li>Collaboratively building Python variation of JavaMOP, a Java software testing framework</li>
+              <li>Collaboratively developed Python variation of JavaMOP, a Java software testing framework</li>
               <li>Designed/documented software architecture and a syntax for writing software tests</li>
               <li>Implemented Python wrappers for Java packages, and tracing Python function calls for analysis</li>
               <li>Configured project so build/install, documentation generation, and testing are each one command</li>
